@@ -1,0 +1,101 @@
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* Single Page CV CSS Index
+  0. Global CSS
+  1. Header Section
+  2. Main Content
+    2.1 Skills Section
+    2.2 Education Section
+    2.3 Carrier History Section
+  3.Footer Seciton
+
+*/
+
+/* 0. Global CSS */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.highlite {
+  color: #22c55e;
+}
+
+/* 1. Header Section CSS */
+.header-section {
+  padding: 50px 0;
+}
+.header-section hr {
+  width: 80%;
+  height: 5px;
+  background-color: black;
+}
+.header-section .developer-intro address {
+  font-style: normal;
+}
