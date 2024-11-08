@@ -120,3 +120,12 @@ h6 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+/* 3.Footer Seciton */
+.footer-section {
+  padding-bottom: 25px;
+}
+.social-profile a {
+  color: grey;
+  text-decoration: none;
+}
