@@ -85,12 +85,16 @@ h6 {
 }
 .highlite {
   color: #22c55e;
+  font-weight: 100;
+}
+.primary-font-size {
+  font-size: 20px;
+}
+.padding-top {
+  padding-top: 25px;
 }
 
 /* 1. Header Section CSS */
-.header-section {
-  padding: 50px 0;
-}
 .header-section hr {
   width: 80%;
   height: 5px;
