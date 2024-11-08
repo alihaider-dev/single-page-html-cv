@@ -90,6 +90,7 @@ h6 {
 .highlite {
   color: #22c55e;
   font-weight: 300;
+  margin-bottom: 10px;
 }
 .highlite-title {
   color: #1e74c3;
@@ -112,4 +113,10 @@ h6 {
 }
 .header-section .developer-intro address {
   font-style: normal;
+}
+
+/* 2.3 Carrier History Section */
+.achievements {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
